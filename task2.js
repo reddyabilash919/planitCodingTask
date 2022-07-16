@@ -62,7 +62,7 @@ function checkFib(num,obj={0:0,1:1}){
 
 const prompt = require("prompt-sync")({sigint:true});
 let input = prompt("Please enter a number: ");
-let output = checkFib(input);
+let output = fib(input);
 console.log(output);
 
 

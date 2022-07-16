@@ -50,4 +50,4 @@ function maxCharInString(string){
 const prompt = require("prompt-sync")({sigint:true});
 let input = prompt("Please enter a string: ");
 let output = maxCharInString(input);
-console.log(`Maximum occurancing character is : ${output}`);
+console.log(`Highest occurrences character is : ${output}`);
